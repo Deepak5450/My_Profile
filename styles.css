@@ -1,0 +1,161 @@
+/* Global Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+}
+
+/* Container Flexbox */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+}
+
+/* Top Navigation Bar Styling */
+.navbar {
+    background-color: burlywood; /* Updated Navbar Color */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-section img.profile-pic {
+    border-radius: 50%;
+    width: 60px; /* Adjusted for top navigation */
+    height: 60px; /* Adjusted for top navigation */
+    margin-right: 10px; /* Space between image and name */
+}
+
+.profile-name {
+    font-size: 24px; /* Adjusted font size for top navigation */
+    font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Align links horizontally */
+}
+
+.nav-links ul li {
+    margin: 0 15px; /* Spacing between links */
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Navbar Hover Effect */
+.navbar a:hover {
+    color: #ffff14; /* Highlight links on hover */
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px; /* Padding for main content */
+}
+
+/* Full-page background image styling */
+body {
+    background: url(https://wallpaperaccess.com/full/5651990.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    color: #1100ff; 
+    border-bottom: 2px solid #0011ff; 
+}
+
+section p, section ul {
+    line-height: 1.6;
+    color: #E6E6E6; 
+}
+
+section ul li {
+    margin: 5px 0;
+}
+
+/* Welcome Section Styling */
+.welcome-section {
+    height: 100vh;                  
+    display: flex;                  
+    align-items: center;            
+    justify-content: center;        
+}
+
+.welcome-text {
+    font-size: 48px;                
+    color: #FF4500;                 
+    font-weight: bold;              
+    text-align: center;             
+}
+
+/* Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Contact Section Styling */
+#contact {
+    padding: 50px 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #f2274c90; 
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-item a:hover {
+    color: #FF6347; 
+}
+
+.contact-icon {
+    width: 32px; 
+    height: 32px;
+    margin-right: 15px; 
+    vertical-align: middle;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+    }
+}
+
+
+
